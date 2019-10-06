@@ -62,15 +62,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApprovalTest.cs" />
+    <Compile Include="QualityUpdater\FastDegradeQualityUpdater.cs" />
+    <Compile Include="QualityUpdater\FastIncreaseQualityUpdater.cs" />
     <Compile Include="GildedRose.cs" />
     <Compile Include="GildedRoseTest.cs" />
+    <Compile Include="QualityUpdater\IncreaseQualityUpdater.cs" />
+    <Compile Include="QualityUpdater\IQualityUpdater.cs" />
+    <Compile Include="QualityUpdater\IQualityUpdaterResolver.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="QualityUpdater\LegendaryQualityUpdater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualityUpdater\QualityUpdater.cs" />
+    <Compile Include="QualityUpdater\QualityUpdaterResolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
